@@ -13,7 +13,7 @@
 					aria-current="page" href="index.jsp">Home</a></li>
 				<li class="nav-item"><a class="nav-link" href="add_notes.jsp">Add Note</a></li>
 
-				<li class="nav-item"><a class="nav-link	" href="#">Show Notes</a></li>
+				<li class="nav-item"><a class="nav-link	" href="all_notes.jsp">Show Notes</a></li>
 			</ul>
 			<form class="d-flex">
 				<input class="form-control me-2" type="search" placeholder="Search"
