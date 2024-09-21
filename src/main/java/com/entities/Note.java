@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 @Entity
 @Table(name = "notes")
 public class Note {
@@ -14,8 +15,9 @@ public class Note {
 	private int id;
 	private String title;
 	private String content;
+	private Date addedDate;
 
-	public Note(int id, String title, String content, Date addedDate) {
+	public Note(String title, String content, Date addedDate) {
 		super();
 		this.id = new Random().nextInt(100000);
 		this.title = title;
@@ -60,5 +62,5 @@ public class Note {
 		this.addedDate = addedDate;
 	}
 
-	private Date addedDate;
+	
 }
