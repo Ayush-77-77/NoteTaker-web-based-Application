@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html>="
 <html lang="en">
 <head>
 <!-- Required meta tags -->
@@ -14,9 +14,14 @@
 	<div class="container">
 		<%@include file="navbar.jsp"%>
 		<br>
-	<h1>This is a Home Page</h1>
-	<br>
+		<div class="card py-5">
+		<img alt="" class="img-fluid mx-auto" style="max-width:400px;" src="image/note_png.png">
+		<h1 class="text-primary text-uppercase text-center mt-3">start taking your notes</h1>
+	<div class="container text-center">
 	
+	<button class="btn btn-outline-primary text-center">Start here</button>
+	</div>
+		</div>
 	
 	</div>
 	

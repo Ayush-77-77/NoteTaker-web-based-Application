@@ -36,6 +36,8 @@
 					<div class="card-body px-5">
 						<h5 class="card-title"><%=note.getTitle()%></h5>
 						<p class="card-text"><%=note.getContent()%></p>
+				
+						<p><b class="text-primary"><%=note.getAddedDate().toLocaleString()%></b></p>
 						<div class="container text-center mt-2">
 
 							<a href="DeleteServlet?note_id=<%= note.getId() %>" class="btn btn-danger">Delete</a> 
